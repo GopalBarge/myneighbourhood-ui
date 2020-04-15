@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    
+    li {
+        background: rgb(21, 238, 238);
+        padding: 1em;
+        margin-right: 10px;
+        width: 20%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+        
+        p{
+            margin: 0em;
+        }
+        p.name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            flex-grow: 1;
+        }
+    }
+}
